@@ -3,8 +3,10 @@ import webpack from 'webpack'
 import { resolve } from 'path'
  export default {
  
-  ssr: false,
-  target: "static",
+  //ssr: true,
+   ssr: false,
+  //target: "server",
+   target: "static",
   server: { port: 8030,},
   head: {
     title: "KBTG INSPIRE",

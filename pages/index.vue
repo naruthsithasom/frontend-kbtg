@@ -494,9 +494,8 @@ export default {
   methods:{
     getJobs() {
       this.$axios
-        .$get("http://13.212.145.117:8000/api/jobs")
+        .$get("http://13.229.146.147:8000/api/jobs")
         .then(
-          // this.$axios.$get('localhost:8000/api/jobs').then(
           (res) => {
             if (res) {
               console.log(res);
